@@ -26,15 +26,30 @@
                 "We studied the tapes and got in shape",
                 "Whats the matter?  Did you check the skeddee there schmeltz",
                 "Let's have a donnybrook!",
-                "Except kids falling off bikes, fuck i could watch kids fall of bikes all day, i don't give a shit about your kids"
+                "Except kids falling off bikes, fuck i could watch kids fall of bikes all day, i don't give a shit about your kids",
+                "He was talking to this girl with such a butt on her. It's like, girl, you shit with that thing?",
+                "What's the nature of that, David Suzuki?",
+                "One time my cousin, he tore open his ballsack tryin' to do a skateboard trick, and he had to show it to his mum.",
+                "You can kiss my aesthetician",
+                "You're made of spare parts aren't you, bud?",
+                "Just call me cake, cause I'm going straight to your ass.",
+                "Pump the brakes; you take your shirt off but leave your sunglasses on?",
+                "What sort of backwards fucking padgentry is that?",
+                "You going to fight with those shades or play pokerstars dot com?",
+                "I haven't seen this sort of fuckin' bedlam since we fired candles at coyotes that night and caught one right in the butthole fuck, ran out the back porch and dropped seven shades of shit in dad's workboots",
+                "That's the best ass-wash of your life right there boys. Good work Shoresy! Look at the hustle on Shoresy! Best ass-wash of your life.",
+                "Your friend says his sled has so much torque he can't keep the front end down. K bud. You want to blow smoke. Go have a dart."
 )
-
+while(1-eq 1){
 #$speak = ($LKquotes | Get-Random)
 $LKlength = ($LKQuotes.Length) -1
-[int]$pick = Read-host "Enter a number from 0 to ($LKlength)"
-    if(($pick -lt $LKLength) -and ($pick -gt -1)){
+[int]$pick = Read-host "Enter a number from 0 to ($LKlength) - or 999 to quit"
+    if(($pick -lt $LKLength+1) -and ($pick -gt -1)){
         $speak = ($LKquotes[$pick]);
         write-host "selected $pick"
+        }
+    elseif($pick -eq 999){
+        break
         }
     else{
         $speak = ($LKquotes | Get-Random)
@@ -47,3 +62,4 @@ $synth = New-Object -TypeName System.Speech.Synthesis.SpeechSynthesizer
 
 #now we use our variable to finally hear something:
 $synth.Speak($speak)
+}
