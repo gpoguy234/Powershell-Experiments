@@ -1,0 +1,7 @@
+AddressGrp,AddrName,AddrIP,Desc
+groupname1,hostname1,IPAddress1,Description
+groupname1,hostname2,IPAddress2,Description
+,hostname,IPAddress3,Description
+groupname2,hostname4,IPAddress4,Description
+groupname3,hostname5,IPAddress5,Description
+groupname3,hostname6,IPAddress6,Description
