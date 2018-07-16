@@ -9,11 +9,8 @@
 #get address list
 $AddrList = @(Import-Csv .\Address-list-FG.csv)
 
-
+#remove duplicate addresses from list
 $DDAddrList = @($AddrList | sort AddrIP,AddrName –Unique)
-
-# show columns (for testing)
-#$AddrList | gm
 
 #remove address groups
 write-output "config firewall addrgrp"

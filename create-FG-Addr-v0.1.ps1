@@ -9,11 +9,8 @@
 #get address list
 $AddrList = @(Import-Csv .\Address-list-FG.csv)
 
-
+#remove duplicate addresses from list
 $DDAddrList = @($AddrList | sort AddrIP,AddrName –Unique)
-
-# show columns (for testing)
-#$AddrList | gm
 
 #Create address objects with comments
 Write-Output "config firewall address"
@@ -23,8 +20,8 @@ foreach ($obj in $DDAddrList){
         Write-Output " set subnet $($obj.AddrIP)";
         if ($($obj.Desc) -ne ""){
             write-output " set comment ""$($obj.Desc)""";
+            write-output " next";
         }
-        write-output "next"
     }
  }
  Write-Output "end"
@@ -41,7 +38,7 @@ foreach ($thing in $groups){
  #if ($GrpAddrList."$($thing.AddressGrp)" -ne ""){
     $GrpMembers = $GrpAddrList."$($thing.AddressGrp)".AddrName -Join """ """
     Write-Output "  set member ""$GrpMembers"""
+    write-output " next";
  }
- write-output " next";
 }
 Write-Output "end"

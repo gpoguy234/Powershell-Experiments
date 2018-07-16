@@ -1,0 +1,18 @@
+ServiceGrp,Service,type,start-port,end-port,Desc,Category
+<leave blank if service is not part of a group>,<Name of service>,"<tcp, udp, tcp-udp, or icmp>",,,<Description of service>,"<specify a category for organizational grouping - IT Services, ICS Services, OASyS Services>"
+Server_Domain,DCE-RPC,tcp-udp,135,,"Replication (RPC, EPM)",IT Services
+Server_Domain,SMB,tcp,445,,"SMB, CIFS",IT Services
+Server_Domain,Kerberos,tcp-udp,"88,464",,Kerberos change/set pwd,IT Services
+Server_Domain,DNS,tcp-udp,53,,DNS,IT Services
+Server_Domain,DynamicRPC,tcp-udp,49152,65535,Dynamic RPC,IT Services
+Server_Domain,ICMP,icmp,"8,0",,"Echo (icmp type 8, code 0)",IT Services
+Server_Domain,NETBIOS_Session,tcp,139,,User/Computer Authentication,IT Services
+Server_Domain,LDAP-GC,tcp-udp,3268,3269,LDAP\SSL GC,IT Services
+Server_Domain,NETBIOS_Data,tcp-udp,138,,"DFS, Group Policy",IT Services
+Server_Domain,NTP,tcp-udp,123,,NTP,IT Services
+,Spirit Proxy,tcp,3128,,Spritflow upload port,IT Services
+,Spacewalk Monitor,tcp,4545,,Linux update port,IT Services
+,TCP_443,tcp,443,,Redundant of HTTPS,IT Services
+,TCP_8083,tcp,8083,,??,IT Services
+,Windows Dynamic Ports,tcp-udp,49152,65535,redundant to DynamicRPC,IT Services
+,Peerlink Communication,tcp,61617,,Peerlink file transfer sync port,IT Services
