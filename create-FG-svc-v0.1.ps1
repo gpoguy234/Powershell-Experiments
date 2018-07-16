@@ -19,7 +19,7 @@ $DDSVCList = @($SVCList | sort service,start-port,end-port –Unique)
 Write-Output "config firewall service custom"
 foreach ($obj in $DDSVCList){
     if ($($obj.service) -ne ""){
-        Write-Output "edit $($obj.service)";
+        Write-Output "edit ""$($obj.service)""";
         Write-Output " set category $($obj.Category)";
         if ($($obj.Desc) -ne ""){
             write-output " set comment ""$($obj.Desc)""";
