@@ -1,5 +1,5 @@
 ﻿
-$file = "External E-Mail.msg"
+$file = "External E-MailEmployee audit.msg"
 $filenameonly = $file.Split(".")[0]
 $savePath = "C:\test\msg"
 
@@ -11,7 +11,7 @@ function shuffle_fileName($file){
         #- check for multiple messages
         $searchstr = ($file.Split(".")[0])+"-*.msg";
         $list = @(ls $searchstr);
-        if($list.count -gt 1){
+        if($list.count -gt 0){
             $index = $list.Count
             $filename = ($list[($index-1)]).Name
             write-host "Also messages up to $filename exists!"
