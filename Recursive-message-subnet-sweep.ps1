@@ -1,5 +1,5 @@
 ﻿$prefix = Read-Host "enter class c subnet prefix "
-$x = (160..215)
+$x = (2..254)
 $StartD = (get-date).AddDays(-9).toString("MM/dd/yyy")
 $EndD = (get-date).AddDays(1).toString("MM/dd/yyy")
 
