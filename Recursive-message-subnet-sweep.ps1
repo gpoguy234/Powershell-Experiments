@@ -1,4 +1,4 @@
-﻿$prefix = Read-Host "enter class c subnet prefix "
+﻿$prefix = Read-Host "enter class c subnet prefix (i.e. 192.168.1.)"
 $x = (2..254)
 $StartD = (get-date).AddDays(-9).toString("MM/dd/yyy")
 $EndD = (get-date).AddDays(1).toString("MM/dd/yyy")
