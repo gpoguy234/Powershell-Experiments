@@ -39,6 +39,13 @@
                 "I haven't seen this sort of fuckin' bedlam since we fired candles at coyotes that night and caught one right in the butthole fuck, ran out the back porch and dropped seven shades of shit in dad's workboots",
                 "That's the best ass-wash of your life right there boys. Good work Shoresy! Look at the hustle on Shoresy! Best ass-wash of your life.",
                 "Your friend says his sled has so much torque he can't keep the front end down. K bud. You want to blow smoke. Go have a dart."
+                "You ever hoover schneef off a sleeping cow’s spine? .. I’ve hoovered schneef off an awake cow’s teet."
+                "It’s like algebra…why you gotta put numbers and letters together? Why can’t you just go fuck yourself?"
+                "You guys every hear anything about that guy fucking an ostrich? ... No, The Ginger fucked an ostrich ... Allegedly"
+                "You naturally care for a companionship, but I guess there’s a lot worse things than playing a little one man couch hockey in the dark"
+                "You wish there was a Pied Piper for possums, but there isn’t, so you’re just gonna have to keep picking dem off with a twenty too. Buckle up cuz they are fucking ugly… Of course that’s not to say I have it all my damn self"
+                "Fuck Lemonee Snicket, what a series of unfortunate events you have fucking been through you ugly fuck"
+                
 )
 while(1-eq 1){
 #$speak = ($LKquotes | Get-Random)
