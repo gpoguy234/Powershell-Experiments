@@ -26,9 +26,9 @@
                 "We studied the tapes and got in shape",
                 "Whats the matter?  Did you check the skeddee there schmeltz",
                 "Let's have a donnybrook!",
-                "Except kids falling off bikes, fuck i could watch kids fall of bikes all day, i don't give a shit about your kids",
+                "Well, there’s nothing better than a fart. Except kids falling off bikes, fuck i could watch kids fall of bikes all day, i don't give a shit about your kids",
                 "He was talking to this girl with such a butt on her. It's like, girl, you shit with that thing?",
-                "What's the nature of that, David Suzuki?",
+                “You seen a ‘coon havin’ sex with a barn cat on top of your truck? Fuck what’s the nature of that David Suzuki.”,
                 "One time my cousin, he tore open his ballsack tryin' to do a skateboard trick, and he had to show it to his mum.",
                 "You can kiss my aesthetician",
                 "You're made of spare parts aren't you, bud?",
@@ -38,14 +38,33 @@
                 "You going to fight with those shades or play pokerstars dot com?",
                 "I haven't seen this sort of fuckin' bedlam since we fired candles at coyotes that night and caught one right in the butthole fuck, ran out the back porch and dropped seven shades of shit in dad's workboots",
                 "That's the best ass-wash of your life right there boys. Good work Shoresy! Look at the hustle on Shoresy! Best ass-wash of your life.",
-                "Your friend says his sled has so much torque he can't keep the front end down. K bud. You want to blow smoke. Go have a dart."
-                "You ever hoover schneef off a sleeping cow’s spine? .. I’ve hoovered schneef off an awake cow’s teet."
-                "It’s like algebra…why you gotta put numbers and letters together? Why can’t you just go fuck yourself?"
-                "You guys every hear anything about that guy fucking an ostrich? ... No, The Ginger fucked an ostrich ... Allegedly"
-                "You naturally care for a companionship, but I guess there’s a lot worse things than playing a little one man couch hockey in the dark"
-                "You wish there was a Pied Piper for possums, but there isn’t, so you’re just gonna have to keep picking dem off with a twenty too. Buckle up cuz they are fucking ugly… Of course that’s not to say I have it all my damn self"
-                "Fuck Lemonee Snicket, what a series of unfortunate events you have fucking been through you ugly fuck"
-                
+                "Your friend says his sled has so much torque he can't keep the front end down. K bud. You want to blow smoke. Go have a dart.",
+                "You ever hoover schneef off a sleeping cow’s spine? .. I’ve hoovered schneef off an awake cow’s teet.",
+                "It’s like algebra…why you gotta put numbers and letters together? Why can’t you just go fuck yourself?",
+                "You guys every hear anything about that guy fucking an ostrich? ... No, The Ginger fucked an ostrich ... Allegedly",
+                "You naturally care for a companionship, but I guess there’s a lot worse things than playing a little one man couch hockey in the dark",
+                "You wish there was a Pied Piper for possums, but there isn’t, so you’re just gonna have to keep picking em off with a twenty too. Buckle up cuz they are fucking ugly… Of course that’s not to say I have it all my damn self",
+                "Fuck Lemonee Snicket, what a series of unfortunate events you have fucking been through you ugly fuck",
+                "Oh, come on, kitten. I won’t tell anyone.",
+                “We only got one shot at this. One chance. One win. You know? Vomit on your mom’s spaghetti, or whatever that talking singer says.”,
+                “If I was a Dr. Seuss book, I’d be The Fat in the Hat.”,
+                “Tim’s, McDonald’s, and the beer store are all closed on Christmas Day. And that’s your whole world right there.”,
+                “Here’s a poem. Star light, star bright, why the fuck you got earrings on? Bet your lobes ain’t the only thing that got a hole punched in ’em.”,
+                "It’s a hard life picking stones and pulin’ teats, but as sure as God’s got sandals, it beats fightin’ dudes with treasure trails.”,
+                "Not my pig, not my farm",
+                "Hard no",
+                “You knew your pal had come into money when he started throwing out perfectly good pistachios like he was above cracking them open with a box cutter like the rest of us.”,
+                “You stopped toe curlin’ in the hot tub ‘cause you heard sperms stay alive in there and you’ve seen Teenage Mutant Ninja Turtles enough times to know how that story ends.”,
+                “Buddy you couldn’t wheel a fuckin’ tire down a hill.”,
+                “If you have a problem with the majestic Canadian Goose, then you have a problem with me. And I suggest you let that one marinate.”,
+                “Fuck you Jonesie! Your mom just liked my Instagram post from 2 years ago in Puerto Vallarta. Tell her I’ll put my swim trunks on for her any time she likes.”,
+                “What’s up with your body hair, big shoots? You look like a 12-year-old Dutch girl.”,
+                “You’re made of spare parts, aren’t you, bud?”,
+                “Well, I’d say give your balls a tug, but it looks like yer pants are doin’ it for ya.”,
+                "You guys do CrossFit? .. You can cross fuck off.”,
+                “I see the muscle shirt came today. Muscles coming tomorrow? Did ya get a tracking number? Oh I hope he got a tracking number. That package is going to be smaller than the one you’re sportin’ now.” ,
+                “Closest you’re gettin’ to any action this weekend is givin’ the dairy cow’s teets a good scrubbin’.”
+
 )
 while(1-eq 1){
 #$speak = ($LKquotes | Get-Random)
