@@ -13,4 +13,4 @@ if($text1 -match $regex){
 
 $text2 = $text1.TrimStart("1")
 $urlstring = "https://www.google.ca/search?q=intext%3A%22" + $text1 + "%22+OR+intext%3A%22%2B" + $text1 + "%22+OR+intext%3A%22" + $text2 + "%22"
-cmd.exe /k start msedge $urlstring
+cmd.exe /c start msedge $urlstring
