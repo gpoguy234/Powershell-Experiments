@@ -1,5 +1,5 @@
 ServiceGrp,Service,type,start-port,end-port,Desc,Category
-<leave blank if service is not part of a group>,<Name of service>,"<tcp, udp, tcp-udp, or icmp>",,,<Description of service>,"<specify a category for organizational grouping - IT Services, ICS Services, OASyS Services>"
+<leave blank if service is not part of a group>,<Name of service>,"<tcp, udp, tcp-udp, or icmp>",,,<Description of service>,"<specify a category for organizational grouping - IT Services, ICS Services>"
 Server_Domain,DCE-RPC,tcp-udp,135,,"Replication (RPC, EPM)",IT Services
 Server_Domain,SMB,tcp,445,,"SMB, CIFS",IT Services
 Server_Domain,Kerberos,tcp-udp,"88,464",,Kerberos change/set pwd,IT Services
