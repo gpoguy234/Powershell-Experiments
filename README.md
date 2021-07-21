@@ -1,5 +1,11 @@
 # Powershell-Experiments
-Random Learning with Powershell
+Random Learning with Powershell, some scripts more useful than others.  Updated infrequently with ideas and security tricks
+
+Several scripts are designed to parse data from other security tool outputs
+- Qualys
+- Fortinet firewall config
+- windows system stuff
+- hardening
 
 LKQuotinator.ps1 - Just run code in powershell to hear random quotes from LetterKenny
 
